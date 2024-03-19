@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIVER</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/Image1.png" alt="EBAC">
+            <p class="hero__text">
+                Você está entimado a comparecer no meu aniversário em: <br>
+                <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização:</b>
+                        Rua Maria De Lourdes Sodré Azevedo 
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Bairro:</b>
+                        Familia Andrade
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Data:</b>
+                        22/04/2024 às 17hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirmar Presença
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--frontend">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__detail__title">Celebrate</h2>
+                <h5 class="event__detail__titleBig">HERE´S TO ANOTHER<br>YEAR OF EXPERIENCE</h5>
+                <p class="event__detail__description">
+                    Você é especial para mim é com grande alegria que
+                    convidamos você e sua família para celebrar conosco
+                    este momento especial em nossas vidas: meu aniversário!
+                    Sua presença é um presente inestimável.
+                </p>
+            </div>
+            <div class="image-container">
+                <img class="event__image" src="/src/images/jones.png" alt="Front-end">
+            </div>
+        </div>
+    </section>
+    <section class="event event--git-giving event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__detail__title">GIT<br>GIVING</h2>
+                <p class="event__detail__description">
+                    Você é especial para mim é com grande alegria que
+                    convidamos você e sua família para celebrar conosco
+                    este momento especial em nossas vidas: meu aniversário!
+                    Sua presença é um presente inestimável.
+                </p>
+                <a href="#" class="button button--primary">Compra Já</a>
+            </div>
+            <img class="event__image" src="/src/images/gitgiving.png" alt="giving">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
